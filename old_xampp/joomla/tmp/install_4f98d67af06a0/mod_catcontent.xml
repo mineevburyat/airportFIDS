@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<mosinstall type="module" version="1.0.0">
+	<name>CatContent</name>
+	<author>Kotofeich</author>
+	<creationDate>23.07.2007</creationDate>
+	<copyright>SkyDisign GNU/GPL</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomlaprodigy.com</authorEmail>
+	<authorUrl>www.skydisign.com</authorUrl>
+	<version>1.1</version>
+	<description>Модуль вывода последних новостей сайта</description>
+	<files>
+		<filename module="mod_catcontent">mod_catcontent.php</filename>
+	</files>
+	<params>
+        <param name="moduleclass_sfx" type="text" default="" label="Префикс модуля" description="Для создания индивидуального стиля" />
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+
+<param name="set_section_id" type="mos_section" default="" label="Выберите раздел" description="Выберите раздел материалов"/>
+
+	 <param name="set_category_id" type="mos_category" default="" label="Выберите категорию" description="Выберите категорию материалов"/>
+	
+		
+		<param name="count" type="text" default="5" label="Кол-во новостей" description="Колличество новостей на странице" />
+		<param name="lastimage" type="radio" default="1" label="Показывать картинку" description="Показывать последнюю картинку из материалов">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+	<param name="marginchik" type="text" default="5" label="Оступ картинки" description="Отступ картинки в пикселях (по умолчанию 3px)" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="orderby" type="list" default="4" label="Сортировать по" description="Вывод новостей в следующем порядке">
+				<option value="0">По алфавиту</option>
+   		        <option value="1">По алфавиту в обр. порядке</option>
+   		        <option value="2">По id</option>
+   		        <option value="3">По id в обратном порядке</option>
+   		        <option value="4">По дате (последние новости - первыми)</option>
+   		        <option value="5">По дате (старые новости - первыми)(</option>
+   		        <option value="8">В случайном порядке</option>
+		</param>
+		<param name="outputorder" type="list" default="1" label="Выводить" description="Порядок вывода заголовка, изображения, даты, текста">
+			<option value="0">Заголовок, дата, текст, картинка </option>
+			<option value="1">Заголовок, дата, картинка, текст</option>
+			<option value="2">Картинка, заголовок, дата, текст</option>
+			<option value="3">Картинка, заголовок, текст, дата</option>
+			<option value="4">Картинка, текст, заголовок, дата</option>
+			<option value="5">Текст, заголовок, дата, картинка</option>
+			<option value="6">Текст, картинка, заголовок</option>
+			<option value="7">Заголовок, дата, текст</option>
+			<option value="8">Заголовок, дата, картинка</option>
+			<option value="9">Картинка, дата, заголовок</option>
+			<option value="10">Картинка, текст</option>
+			<option value="11">Текст, заголовок</option>
+			<option value="12">Текст, картинка</option>
+		</param>	
+		<param name="seperator" type="radio" default="1" label="Разделитель" description="Вставлять тег hr после каждой новости">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>	
+		
+		<param name="linkedtitle" type="radio" default="1" label="Заголовок - ссылка" description="Делать заголовки носотей - ссылками">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="linkedimg" type="radio" default="0" label="Картинка - ссылка" description="Картинка является ссылкой на статью">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="chars" type="text" default="" label="Кол-во символов" description="Предел по кол-ву символов" />
+		<param name="words" type="text" default="" label="Кол-во слов" description="Предел по кол-ву слов" />
+		<param name="readmore" type="radio" default="1" label="Читать дальше" description="Показывать после статьи ссылку- читать дальше">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		
+            <param name="align" type="list" default="left" label="Выравнивание картинки" description="Выровнять картинку слева или справа">
+			<option value="left">По левому краю</option>
+			<option value="right">По правому краю</option>
+		</param>
+		<param name="width" type="text" default="100" label="Длина картинки" description="Длина картинки в пикселях." />
+		<param name="height" type="text" default="" label="Ширина картинки" description="Ширина картинки в пикселях." />
+
+	<param name="pref_text" type="text" default="" label="Пред-теги" description="Теги обрамления перед новостью" />
+	<param name="post_text" type="text" default="" label="Пост-теги" description="Теги обрамления после новости" />
+		</params>
+
+
+
+</mosinstall>

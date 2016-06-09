@@ -1,0 +1,335 @@
+
+		
+H10 {
+    font: 20pt PF DinDisplay Pro ;
+	}
+H11 {
+    font: 14pt PF DinDisplay Pro ;
+	}
+H12 {
+	color: #5c5c5c;
+    font: 14pt PF DinDisplay Pro ;
+	}
+H13 {
+	color: #5c5c5c;
+    font: bold 12pt PF DinDisplay Pro ;
+	}	
+H14 {
+	color:#0371c5;
+    font: bold 12pt PF DinDisplay Pro ;
+	}
+H15 {
+	color:#ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	}	
+H16 {
+	color:#949494;
+    font: bold 12pt PF DinDisplay Pro ;
+	}	
+H17 {
+	color:black;
+    font: bold 12pt PF DinDisplay Pro ;
+	}	
+H18 {
+	color : #ff3c00;
+    font : bold 21pt PF DinDisplay Pro ;
+	}
+H19 {
+	color: #ff3c00;
+    font: bold 17pt PF DinDisplay Pro ;
+	}
+H20 {
+    font: bold 28pt PF DinDisplay Pro ;
+	}	
+H21 {
+	color: #5c5c5c;
+    font: bold 11pt PF DinDisplay Pro ;
+	}
+H22 {
+	color: #ffffff;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 23px;
+	}
+H22_1 {
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 23px;
+	}
+H23 {
+	color: #ffffff;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 40px;
+	}
+H23_1 {
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 40px;
+	}
+H24 {
+	color: #ffffff;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 30px;
+	}
+H24_1 {
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 30px;
+	}
+H25 {
+	color: #ffffff;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 35px;
+	}
+H25_1{
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 35px;
+	}
+H26 {
+	color: #ffffff;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 30px;
+	}
+H26_1 {
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	margin: 0 0 0 30px;
+	}
+H27 {
+	color:#949494;
+    font: bold 11.5pt PF DinDisplay Pro ;
+	}
+H28 {
+	color:#949494;
+    font: bold 10pt PF DinDisplay Pro ;
+	}
+H29 {
+	color: #ff3c00;
+    font: bold 12pt PF DinDisplay Pro ;
+	}	
+H30{
+	color: #005dcf;
+    font: bold 15pt PF DinDisplay Pro ;
+	}	
+H31 {
+	color: #5c5c5c;
+    font:  12pt PF DinDisplay Pro ;
+	}	
+H32 {
+	color: #5c5c5c;
+	float: left; 
+	margin: 3.8% 0 0 0; 
+    font:  12pt PF DinDisplay Pro ;
+	}	
+H33 {
+	color: black;
+    font:  14pt PF DinDisplay Pro ;
+	}	
+H34 {
+	color: #4c4c4c;
+    font:  13pt PF DinDisplay Pro ;
+	}
+H35 {
+	color: #005dcf;
+    font:  bold 12pt PF DinDisplay Pro ;
+	}	
+
+A { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+#content {
+width: 990px;
+height: 630px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content2 {
+width: 990px;
+height: 1500px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content3 {
+width: 990px;
+height: 900px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content4 {
+width: 990px;
+height: 780px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content5 {
+width: 990px;
+height: 850px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content6 {
+width: 990px;
+height: 750px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content7 {
+width: 990px;
+height: 600px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content8 {
+width: 990px;
+height: 1200px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content9 {
+width: 990px;
+height: 750px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content10 {
+width: 990px;
+height: 950px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#content11 {
+width: 990px;
+height: 1150px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#ab2 {
+width: 1040px;
+height: 430px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#ab2 .ab2_2 {
+width: 280px;
+float: left;
+margin: -300px 0 0 700px;
+}
+
+#ab3 {
+width: 1040px;
+height: 350px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#ab3 .ab3_2 {
+width: 250px;
+float: left;
+margin: -188px 0 0 530px;
+}
+
+#ab4 {
+width: 1040px;
+height: 430px;
+margin: 0 auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+.ab4_2 {
+width: 500px;
+float: left;
+margin: -30px 0 0 530px;
+}
+.ab4_3 {
+width: 250px;
+float: left;
+margin: -23px 0 0 150px;
+}
+
+#content .ab1 {
+width: 990px;
+float: left;
+margin: 0 0 0 0;
+}
+#content3 .plan1_2 {
+width: 800px;
+float: left;
+margin: -15px 0 0 350px;
+}
+
+#content4 .plan1_2 {
+width: 800px;
+float: left;
+margin: -15px 0 0 350px;
+}
+#content5 .plan1_2 {
+width: 800px;
+float: left;
+margin: -15px 0 0 350px;
+}
+#content6 .plan1_2 {
+width: 800px;
+float: left;
+margin: -15px 0 0 350px;
+}
+#content8 .inf {
+width: 300px;
+float: left;
+margin: -450px 0 0 550px;
+}
+#content .main {
+width: 550px;
+float: left;
+margin: 0 0 0 445px;
+}
+#content .sidebar {
+width: 430px;
+float: left;
+margin: 0 0 0 -100%;
+}
+#head {
+width: 990px;
+height: 790px;
+margin: -400px auto;
+min-height: 350px;
+background: url() bottom right no-repeat;
+}
+#head .phone1 {
+width: 200px;
+float: left;
+margin: -5% 0 0 78%;
+}
+#head .phone2 {
+width: 200px;
+float: left;
+margin: -3% 0 0 78%;
+}
+#head .phone3 {
+width: 200px;
+float: left;
+margin: -0.5% 0 0 78%;
+}
+#head .name {
+width: 280px;
+float: left;
+margin: 2% 0 0 6%;
+}
+#head .menu {
+width: 640px;
+height: 40px;
+float: left;
+margin: 23% 0 0 34%;
+background: url() bottom right no-repeat;
+}

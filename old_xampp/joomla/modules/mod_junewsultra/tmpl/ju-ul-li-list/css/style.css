@@ -1,0 +1,66 @@
+/**
+* @package Joomla! 1.7
+* @author 2008 (c)  Denys Nosov (aka Dutch)
+* @author web-site: www.joomla-ua.org
+* @copyright This module is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License.
+**/
+
+.junewsultra,
+.junewsultra .jn-list,
+.junewsultra .jn-list-info{
+	overflow: hidden;
+	clear: both;
+}
+	.junewsultra .jn-list a,
+	.junewsultra .jn-list a:link	,
+	.junewsultra .jn-list a:visited{
+		text-decoration: none;
+		background: transparent;
+		border: none;
+	}	
+		.junewsultra .jn-list a:hover,
+		.junewsultra .jn-list a:focus,
+		.junewsultra .jn-list a:active{
+			text-decoration: underline;
+			color: inherit;
+			border: none;
+		}
+	.junewsultra .jn-list{
+		padding-bottom: 6px;
+	}
+		.junewsultra .jn-list .jn-list-info{
+			padding: 3px;
+			margin: 1px 0;	
+			background: #e7f5fd;
+			font-size: 40%;
+			min-height: 30px;
+		}
+			.junewsultra .jn-list .jn-list-info,
+			.junewsultra .jn-list .jn-list-info a{
+				color: #5f9ea0;
+			}	
+				.junewsultra .jn-list .jn-list-info span{
+					padding: 0 4px 0 0;						
+				}						
+				.junewsultra .jn-list .jn-list-info .left{
+					float: left;
+					width: 40px;
+				}
+					.junewsultra .jn-list .jn-list-info .left div{
+						margin: 0;
+						clear: both;
+						padding: 4px 0 0 0;
+					}			
+						.junewsultra .jn-list .jn-list-info img{
+							border: none;
+							padding: 0;
+							margin: -10px 0 0 0;
+						}			
+			.junewsultra .jn-list .jn-list-info .right{
+				margin-left: 20px;
+			}	
+			.junewsultra .jn-list .jn-list-info .right span{
+				display: block;
+			}	
+
+	

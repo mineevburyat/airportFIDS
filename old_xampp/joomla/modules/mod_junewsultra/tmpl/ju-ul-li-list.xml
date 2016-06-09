@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="1.7" method="upgrade">
+	<name>JUNewsUltra - List template</name>
+	<creationDate>2011-07-25</creationDate>
+	<author>Joomla! Ukraine</author>
+	<authorEmail>denys@joomla-ua.org</authorEmail>
+	<authorUrl>www.joomla-ua.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>List template for module JUNewsUltra</description>
+	<fileset>
+		<files target="modules/mod_junewsultra/tmpl">
+			<folder>ju-ul-li-list</folder>
+			<file writable="yes">ju-ul-li-list.php</file>
+			<file>ju-ul-li-list.xml</file>
+		</files>
+	</fileset>
+</extension>

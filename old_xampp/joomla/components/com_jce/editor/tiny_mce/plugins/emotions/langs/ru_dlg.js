@@ -1,0 +1,22 @@
+tinyMCE.addI18n('ru.emotions_dlg',{
+title:"Вставить смайл",
+desc:"Смайлы",
+confused:"Сконфуженный",
+cool:"Круто",
+cry:"Плачу",
+eek:"Испуганный",
+embarassed:"Смущаюсь",
+evil:"Злой",
+frown:"Хмурюсь",
+grin:"Усмехаюсь",
+laughing:"Смеюсь",
+mad:"Безумный",
+neutral:"Нейтральный",
+roll:"Закативший глаза",
+sad:"Грустный",
+smile:"Улыбаюсь",
+surprised:"Удивляюсь",
+tongue_out:"Высунул язык",
+wink:"Подмигиваю",
+yell:"Кричу"
+});

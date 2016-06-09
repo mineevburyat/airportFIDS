@@ -1,0 +1,26 @@
+/* 
+Menu.css for Dolphin menu
+Copyright (C) 2008 TemplatePlazza.com
+All rights reserved.
+ */ 
+#tp-menu-container{position:relative; color:#666666;background:#020303 url(images/bgcontainer.gif) repeat-x top left;width: auto;font-family:Helvetica,Arial,Verdana,sans-serif; height:64px;}
+#tp-menu-nav{position:relative;height:33px;font-size:12px;text-transform:uppercase;font-weight:bold;background:#fff url(images/dropline_bg.gif) repeat-x bottom left;padding:0 0 0 20px;}
+#tp-menu-nav ul{margin:0;padding:0;list-style-type:none;width:auto;float:left;}
+#tp-menu-nav ul li{display:block;float:left;margin:0 1px;}
+#tp-menu-nav ul li a{display:block;float:left;color:#666666;text-decoration:none;padding:0 0 0 20px;height:33px;}
+#tp-menu-nav ul li a span{padding:12px 20px 0 0;height:21px;float:left;}
+#tp-menu-nav ul li a:hover{color:#fff;background:transparent url(images/dropline_bg_over.gif) repeat-x bottom left;}
+#tp-menu-nav ul li a:hover span{display:block;width:auto;cursor:pointer;}
+#tp-menu-nav ul li a.current,#tp-menu-nav ul li a.current:hover{color:#fff;background: url(images/dropline_left_on.gif) no-repeat top left;line-height:275%;}
+#tp-menu-nav ul li a.current span{display:block;padding:0 20px 0 0;width:auto;background: url(images/dropline_right_on.gif) no-repeat top right;height:33px;}
+
+#tp-menu-inner{color: white; padding: 5px; font-size: 80%; height: 1em}
+
+#tp-menu-inner a:link, #tp-menu-inner a:visited {color: white}
+#tp-menu-inner a:active{color: red}
+#tp-menu-inner a:hover{color: yellow}
+div#tp-menu-inner, div#tp-menu-inner div {height: 20px;}
+div#relhide {display:none;}
+#tp-menu-nav li { background:none; padding-left:0;}
+#tp-menu-inner ul li {float: left;list-style-type:none; padding-right:15px; border-right:1px solid #999999; margin-right:10px; background:none; padding-left:0;}
+.innercontent{display: none;}

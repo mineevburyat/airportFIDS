@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.7" method="upgrade">
+    <name>MOD_JUNEWSULTRA</name>
+    <packagename>junewsultra</packagename>
+	<creationDate>09.04.2012</creationDate>
+    <packager>Joomla! Ukraine</packager>
+	<copyright>(C) 2009-2012 Denys Nosov, Joomla! Ukraine</copyright>
+    <packagerurl>http://www.joomla-ua.org</packagerurl>
+	<author>Denys Nosov, Joomla! Ukraine</author>
+	<authorEmail>denys@joomla-ua.org</authorEmail>
+	<authorUrl>http://www.joomla-ua.org</authorUrl>
+    <version>3.0.1</version>
+	<license>GNU/GPL Version 2 or later and Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License</license>
+    <description>MOD_JUNEWS_XML_DESCRIPTION</description>
+	<update>http://www.joomla-ua.org/update/mod/junewsultra.xml</update>
+	<updateservers>
+		<server type="extension" priority="1" name="JUNewsUltra">http://www.joomla-ua.org/update/mod/junewsultra.xml</server>
+	</updateservers>
+    <files folder="packages">
+        <file type="module" id="mod_junewsultra" client="site">mod_junewsultra.zip</file>
+        <file type="file" id="tmpl_mod_junewsultra_ju_ul-li-list" client="site">tmpl_mod_junewsultra_ju_ul-li-list.zip</file>
+        <file type="file" id="tmpl_mod_junewsultra_default" client="site">tmpl_mod_junewsultra_default.zip</file>
+    </files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_junewsultra.ini</language>
+		<language tag="en-GB">en-GB/en-GB.pkg_junewsultra.sys.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.pkg_junewsultra.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.pkg_junewsultra.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_junewsultra.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_junewsultra.sys.ini</language>
+		<language tag="be-BY">be-BY/be-BY.pkg_junewsultra.ini</language>
+		<language tag="be-BY">be-BY/be-BY.pkg_junewsultra.sys.ini</language>
+		<language tag="nl-BE">nl-BE/nl-BE.pkg_junewsultra.ini</language>
+		<language tag="nl-BE">nl-BE/nl-BE.pkg_junewsultra.sys.ini</language>
+	</languages>
+</extension>

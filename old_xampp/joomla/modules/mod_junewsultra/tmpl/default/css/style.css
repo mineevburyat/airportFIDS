@@ -1,0 +1,164 @@
+/**
+* @package Joomla! 1.7
+* @author 2008 (c)  Denys Nosov (aka Dutch)
+* @author web-site: www.joomla-ua.org
+* @copyright This module is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License.
+**/
+
+.junewsultra,
+.junewsultra .jn,
+.junewsultra .jn-head{
+	overflow: hidden;
+}
+.junewsultra .jn-head,
+.junewsultra .jn .jn-intro,
+.junewsultra .jn .jn-more{
+	clear: both;
+	padding: -10px 4px;
+}
+.junewsultra .jn a,
+.junewsultra .jn a:link	,
+.junewsultra .jn a:visited{
+	text-decoration: none;
+	background: transparent;
+	border: none;
+}	
+.junewsultra .jn a:hover,
+.junewsultra .jn a:focus,
+.junewsultra .jn a:active{
+	text-decoration: underline;
+	color: inherit;
+	border: none;
+}
+	.junewsultra .jn{
+		margin: 10px 0;
+		padding: 0;
+		/*border: 1px #e0e0e0 solid;*/
+		clear: both;
+		display: block;
+	}
+		.junewsultra .jn .jn-head{
+			/*background: #f4f4f4 url(../images/bg.jpg) repeat-x 0 100%;	*/	
+		}		
+			.junewsultra .jn .jn-left{
+				float: left;
+				width: 42%;
+			}
+				.junewsultra .jn .jn-left img{
+					padding: 1px;
+					/*border: 1px #a7b3be solid;*/
+				}
+			.junewsultra .jn .jn-right{
+				
+			}		
+				.junewsultra .jn .jn-right h2{
+					font-size: 1%;
+					font-weight: bolder;
+				}	
+				.junewsultra .jn .jn-right .jn-info{
+					font-size: 70%;
+					color: #778899;
+					padding: -15px 0 0 0;
+				}
+					.junewsultra .jn .jn-right .jn-hit-n-rating{
+						padding-top: 3px;
+					}
+						.junewsultra .jn .jn-right .jn-hit-n-rating .jn-small{
+							float: left;
+							padding-right: 3px;
+						}
+						.junewsultra .jn .jn-right .jn-hit-n-rating .jn-rating img{
+							border: none;
+							padding: 0;
+							margin: 0;
+						}	
+		.junewsultra .jn .jn-more{
+			text-align: right;
+		}	
+			.junewsultra .jn .jn-more a{
+				padding-left: 5px;
+			}	
+#online {
+width: 520px;
+}
+   
+H110 {
+    font: 17px/135% Arial, sans-serif; 
+	color: #666;
+   } 
+H120 {
+    font-size: 15px; /* Размер шрифта в процентах */ 
+	color: #666;
+   } 
+H120 {
+    font-size: 15px; /* Размер шрифта в процентах */ 
+    color: black;
+   } 
+.tr1 {
+padding: 10px;
+border-bottom: 2px solid #999;
+font-weight: normal;
+color: #666;
+}
+
+
+#content-slider { 
+  width: 650px; 
+  overflow: hidden; 
+  height: 300px; 
+  margin: 30px 0 0 0; 
+  border: solid 1px #666; 
+} 
+
+#content-slider-inside { 
+  list-style: none; 
+  height: 320px; 
+  overflow: scroll; 
+  overflow-y: hidden; 
+} 
+
+  #content-slider-inside li { 
+  width: 650px; 
+  height: 300px; 
+
+  font-size: 200px; 
+  font-family: "Times New Roman", Times, serif; 
+  font-style: italic; 
+  text-align: center; 
+  line-height: 300px; 
+  } 
+   
+#navigation { 
+  list-style: none; 
+  margin: 20px 0 0 0; 
+  float: right; 
+} 
+
+#navigation li { 
+  float: left; 
+  width: 30px; 
+  height: 30px; 
+  text-align: center; 
+  margin: 0; 
+  border: solid 1px #ccc; 
+  line-height: 30px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  margin: 0 0 0 5px; 
+} 
+
+#navigation li a, #navigation li a:link, #navigation li a:visited { 
+  text-decoration: none; 
+  display: block; 
+  height: 30px; 
+
+} 
+
+#navigation li a.selected, #navigation li a.selected:link, #navigation li a.selected:visited { 
+  background: #666; 
+
+} 
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active { 
+  background: #666; 
+
+}			

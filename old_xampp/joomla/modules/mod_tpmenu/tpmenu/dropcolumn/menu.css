@@ -1,0 +1,171 @@
+/* 
+Menu.css for DropColumn Menu
+Copyright (C) 2008 TemplatePlazza.com
+All rights reserved.
+ */ 
+ #tp-cssmenu {
+	margin: 0; /* all lists */
+	padding: 0;
+	float: left;
+	border-left: 1px solid #C0C0C0;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background: url(images/bgtpmenu.gif) repeat-x #FFFFFF;
+}
+
+#tp-cssmenu ul {
+	margin: 0; /* all lists */
+	padding: 0;
+}
+
+#tp-cssmenu li {
+	margin: 0; /* all list items */
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	/* cursor: pointer; */
+	position: relative;
+}
+
+
+
+#tp-cssmenu li ul ul {
+	margin: -1.5em 0 0 14em; /* third-and-above-level lists */
+}
+
+#tp-cssmenu li li {
+	padding: 0 1em 0 0;
+	margin: 0;
+	/* width: 14.9em; */
+}
+
+#tp-cssmenu ul a {
+	/*
+	width: 14.8em;
+	w\idth: 10.8em;
+	*/
+	width: auto;
+}
+
+#tp-cssmenu li ul {
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+#tp-cssmenu li:hover ul ul, #tp-cssmenu li:hover ul ul ul,
+#tp-cssmenu li.sfhover ul ul, #tp-cssmenu li.havechildsfhover ul ul, #tp-cssmenu li.havechild-activesfhover ul ul, #tp-cssmenu li.activesfhover ul ul,
+#tp-cssmenu li.sfhover ul ul ul, #tp-cssmenu li.havechildsfhover ul ul ul, #tp-cssmenu li.havechild-activesfhover ul ul ul, #tp-cssmenu li.activesfhover ul ul ul {
+	left: -999em;
+}
+
+/* This "unhides" the sub-menus (left: -999em is what hides them) */
+#tp-cssmenu li:hover ul, #tp-cssmenu li li:hover ul, #tp-cssmenu li li li:hover ul,
+#tp-cssmenu li.sfhover ul, #tp-cssmenu li.havechildsfhover ul, #tp-cssmenu li.havechild-activesfhover ul, #tp-cssmenu li.activesfhover ul,
+#tp-cssmenu li li.sfhover ul, #tp-cssmenu li li.havesubchildsfhover ul, #tp-cssmenu li li.havesubchild-activesfhover ul, #tp-cssmenu li li.activesfhover ul,
+#tp-cssmenu li li li.sfhover ul, #tp-cssmenu li li li.havesubchildsfhover ul, #tp-cssmenu li li li.havesubchild-activesfhover ul, #tp-cssmenu li li li.activesfhover ul {
+	left: auto;
+}
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#tp-cssmenu li a {
+	margin: 0;
+	padding: 10px 20px;
+	border-right: 1px solid #C0C0C0;
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+#tp-cssmenu li a.fulltpmenuimages {
+	padding:0;
+	margin:0;}
+#tp-cssmenu li a:hover,
+#tp-cssmenu li a:active,
+#tp-cssmenu li a:focus {
+	background: #555555;
+	color: #FFFFFF;
+}
+
+#tp-cssmenu li {
+	margin: 0;
+}
+
+#tp-cssmenu li:hover,
+#tp-cssmenu li.sfhover,
+#tp-cssmenu li.havechildsfhover,
+#tp-cssmenu li.havechild-activesfhover {
+	background:#555555;
+	color: #FFFFFF;
+}
+
+#tp-cssmenu li a.active,
+#tp-cssmenu li a.active:hover,
+#tp-cssmenu li a.active:active,
+#tp-cssmenu li a.active:focus {
+	background: #333333;
+	color: #FFFFFF;
+
+}
+
+/* 2nd level and above */
+#tp-cssmenu li ul {
+	/* width: 16.4em; */
+	position: absolute; /* second-level lists */
+	z-index: 99;
+	height: auto;
+	/* width: 15.9em; */
+	width:400px;
+}
+#tp-cssmenu li ul li {
+	/* border-top: 1px solid #777777; */
+	/* border-bottom: 1px solid #444444; */
+	background:#555555;
+}
+
+#tp-cssmenu li ul a {
+	border-right: none;
+	margin: 0;
+	padding: 7px 10px;
+	background: none;
+	color: #CCCCCC;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: none;
+}
+
+#tp-cssmenu li.havesubchild,
+#tp-cssmenu li.havesubchild-active {
+}
+
+
+#tp-cssmenu ul li:hover,
+#tp-cssmenu ul li.sfhover,
+#tp-cssmenu ul li.havesubchildsfhover,
+#tp-cssmenu ul li.havesubchild-activesfhover {
+	/* background: #333333; */
+	color: #CCCCCC;
+}
+
+#tp-cssmenu ul li a.active,
+#tp-cssmenu ul li a.active:hover,
+#tp-cssmenu ul li a.active:active,
+#tp-cssmenu ul li a.active:focus {
+	background: none !important;
+	color: #FF0000;
+	text-decoration:underline;
+
+}
+
+.tpsubtitle {
+	display:block;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	font-weight:400;
+	height:11px;
+	line-height:11px;
+	margin-top:-10px;
+}

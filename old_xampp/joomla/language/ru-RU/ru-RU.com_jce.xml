@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.0" type="language" core="1">
+	<name>Russian</name>
+	<tag>ru-RU</tag>
+	<version>2.0.20</version>
+	<creationDate>23 January 2012</creationDate>
+	<author>S_K</author>
+	<authorEmail>@@email@@</authorEmail>
+	<authorUrl>http://joomlaforum.ru/index.php/topic,196507.0.html</authorUrl>
+	<copyright>Copyright (C) 2006 - 2011 Ryan Demmer. All rights reserved</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>Russian language pack for JCE 2.0</description>
+	<site folder="language/ru-RU">
+		<!-- subcriptions plugins language files -->
+		<file>ru-RU.com_jce_caption.ini</file> 
+		<file>ru-RU.com_jce_emotions.ini</file>
+		<file>ru-RU.com_jce_filemanager.ini</file>
+		<file>ru-RU.com_jce_fullpage.ini</file>
+		<file>ru-RU.com_jce_iframe.ini</file>
+		<file>ru-RU.com_jce_imgmanager_ext.ini</file>
+		<file>ru-RU.com_jce_mediamanager.ini</file>
+		<file>ru-RU.com_jce_popups_rokbox.ini</file>
+		<file>ru-RU.com_jce_popups_widgetkit.ini</file>
+		<file>ru-RU.com_jce_templatemanager.ini</file>
+	</site>
+	<tinymce folder="components/com_jce/editor/tiny_mce">
+		<file>langs/ru.js</file>
+		<file>langs/ru_dlg.js</file>
+		<file>themes/advanced/langs/ru.js</file>
+		<file>themes/advanced/langs/ru_dlg.js</file>
+		<file>plugins/article/langs/ru_dlg.js</file>
+		<file>plugins/browser/langs/ru_dlg.js</file>
+		<file>plugins/imgmanager/langs/ru_dlg.js</file>
+		<file>plugins/link/langs/ru_dlg.js</file>
+		<file>plugins/searchreplace/langs/ru_dlg.js</file>
+		<file>plugins/style/langs/ru_dlg.js</file>
+		<file>plugins/table/langs/ru_dlg.js</file>
+		<file>plugins/xhtmlxtras/langs/ru_dlg.js</file>
+		<!-- subcriptions plugins language files -->
+		<file>plugins/caption/langs/ru.js</file>
+		<file>plugins/emotions/langs/ru_dlg.js</file>
+		<file>plugins/filemanager/langs/ru_dlg.js</file>
+		<file>plugins/fullpage/langs/ru_dlg.js</file>
+		<file>plugins/iframe/langs/ru.js</file>
+		<file>plugins/iframe/langs/ru_dlg.js</file>
+		<file>plugins/imgmanager_ext/langs/ru_dlg.js</file>
+		<file>plugins/mediamanager/langs/ru_dlg.js</file>
+		<file>plugins/templatemanager/langs/ru.js</file>
+		<file>plugins/templatemanager/langs/ru_dlg.js</file>
+	</tinymce>
+	<administration folder="administrator/language/ru-RU">
+		<file>ru-RU.com_jce.ini</file>
+		<file>ru-RU.com_jce.menu.ini</file>
+		<file>ru-RU.com_jce.sys.ini</file>
+		<file>ru-RU.plg_editors_jce.ini</file>
+		<file>ru-RU.plg_editors_jce.sys.ini</file>
+	</administration>
+</install>

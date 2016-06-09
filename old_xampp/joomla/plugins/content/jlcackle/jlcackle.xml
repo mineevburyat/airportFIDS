@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+	<name>JoomLine Cackle</name>
+	<author>JoomLine</author>
+	<creationDate>Nov 2011</creationDate>
+	<copyright>(C) 2011 by Kunicin Vadim(http://www.joomline.ru)</copyright>
+	<license>GNU/GPL: http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>vadim@joomline.ru</authorEmail>
+	<authorUrl>http://joomline.ru</authorUrl>
+	<version>2.0</version>
+	<description>Plugin allow integrate Cackle comments into your joomla based site</description>
+	<files>
+		<filename plugin="jlcackle">jlcackle.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="apiId" type="text" label="PLG_JLCACKLE_IDSITE_LABEL" description="PLG_JLCACKLE_IDSITE_DESC" default="IDsite"/>
+				<field name="autoAdd" type="radio" default="0" label="PLG_JLCACKLE_AUTOADD_LABEL" description="PLG_JLCACKLE_AUTOADD_DESC">
+				  <option value="0">PLG_JLCACKLE_NO</option>
+				  <option value="1">PLG_JLCACKLE_YES</option>
+				</field>
+				<field name="categories" type="category" extension='com_content' default="0" multiple="multiple" label="PLG_JLCACKLE_EXCLUDE_CATEGORY_LABEL" description="PLG_JLCACKLE_EXCLUDE_CATEGORY_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="Module JLCackle Update Site">http://joomline.ru/update/plg_jlcackle/extension.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	
+	<name>TemplatePlaza Menu</name>
+	<author>Jerry Wijaya TP Team</author>
+	<creationDate>May 2008</creationDate>
+	<copyright>2008</copyright>
+	<license>www.templateplazza.com</license>
+	<authorEmail>me@jerrywijaya.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>2.0.4</version>
+	<description>TemplatePlazza For J15 All in One Menu Sytem - Module for display custom menu (MooMenu, Suckerfish, Dropline, and Dropcolumn) Changelog in 2.0.1 - Fixing the itemid issue on dolphin and dropcolumn menu Changelog in 2.0.2 - Fixing menu hoverout  animation
+	Changelog in 2.0.3 - Fixing js syntax error issue in menu2.js.php and several minor issues - Changelog in 2.0.4 - Adding New Menu Decription Feature and fixing few minor issues  </description>	
+	
+	
+	<files>
+		<filename module="mod_tpmenu">mod_tpmenu.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+    	<filename>tmpl/index.html</filename>		
+		<filename>tpmenu/index.html</filename>
+		<filename>tpmenu/mootools.js</filename>
+		
+		<filename>tpmenu/dropcolumn/images/index.html</filename>
+		<filename>tpmenu/dropcolumn/menu.css</filename>
+		<filename>tpmenu/dropcolumn/menu.js.php</filename>
+		<filename>tpmenu/dropcolumn/menu2.js.php</filename>
+		<filename>tpmenu/dropcolumn/menu.php</filename>
+		<filename>tpmenu/dropcolumn/index.html</filename>
+		
+		<filename>tpmenu/dropdown/images/index.html</filename>
+		<filename>tpmenu/dropdown/images/arrow.png</filename>
+		<filename>tpmenu/dropdown/images/bullet.gif</filename>
+		<filename>tpmenu/dropdown/images/opaque.png</filename>
+		<filename>tpmenu/dropdown/menu.css</filename>
+		<filename>tpmenu/dropdown/menu.js.php</filename>
+		<filename>tpmenu/dropdown/menu2.js.php</filename>
+		<filename>tpmenu/dropdown/menu.php</filename>
+		<filename>tpmenu/dropdown/index.html</filename>
+
+		<filename>tpmenu/dropline/images/index.html</filename>
+		<filename>tpmenu/dropline/images/arrow.png</filename>
+		<filename>tpmenu/dropline/images/bullet.gif</filename>
+		<filename>tpmenu/dropline/images/opaque.png</filename>
+		<filename>tpmenu/dropline/menu.css</filename>
+		<filename>tpmenu/dropline/menu.js.php</filename>
+		<filename>tpmenu/dropline/menu2.js.php</filename>
+		<filename>tpmenu/dropline/menu.php</filename>
+		<filename>tpmenu/dropline/index.html</filename>
+		
+		<filename>tpmenu/dolphin/images/index.html</filename>
+		<filename>tpmenu/dolphin/images/dropline_active.gif</filename>
+		<filename>tpmenu/dolphin/images/dropline_bg.gif</filename>
+		<filename>tpmenu/dolphin/images/dropline_bg_over.gif</filename>
+		<filename>tpmenu/dolphin/images/dropline_left_on.gif</filename>
+		<filename>tpmenu/dolphin/images/dropline_right_on.gif</filename>
+		<filename>tpmenu/dolphin/images/bgcontainer.gif</filename>
+		<filename>tpmenu/dolphin/menu.css</filename>
+		<filename>tpmenu/dolphin/menu.js.php</filename>
+		<filename>tpmenu/dolphin/menu.php</filename>
+		<filename>tpmenu/dolphin/index.html</filename>
+
+		
+		
+		
+	</files>
+	<params>
+		<param name="menu" type="mos_menu" default="mainmenu" label="Menu" description="The name of the menu you wish the module to display - if no menu is selected the mainmenu is loaded" />
+	  <param name="menutype" type="list" default="dropdown" label="Menu Type"  description="Display type of your menu">
+			<option value="dropdown">Drop Down</option>
+			<option value="dropline">Drop Line</option>
+			<option value="dropcolumn">Drop Column</option>
+			<option value="dolphin">Dolphin</option>
+		</param>
+		<param name="animatedtype" type="radio" default="standard" label="Display Type" description="Display animated type of your menu">
+			<option value="standard">Standard</option>
+			<option value="animated">Animated</option>
+		</param>
+		<param name="animatedFx" type="list" default="Fx.Transitions.Bounce.easeOut" label="FX Animation" description="Animated type for your menu">
+			<option value="Fx.Transitions.linear">Fx.Transitions.linear</option>
+			<option value="Fx.Transitions.Quad.easeIn">Fx.Transitions.Quad.easeIn</option>
+			<option value="Fx.Transitions.Quad.easeOut">Fx.Transitions.Quad.easeOut</option>
+			<option value="Fx.Transitions.Quad.easeInOut">Fx.Transitions.Quad.easeInOut</option>
+			<option value="Fx.Transitions.Cubic.easeIn">Fx.Transitions.Cubic.easeIn</option>
+			<option value="Fx.Transitions.Cubic.easeOut">Fx.Transitions.Cubic.easeOut</option>
+			<option value="Fx.Transitions.Cubic.easeInOut">Fx.Transitions.Cubic.easeInOut</option>
+			<option value="Fx.Transitions.Quart.easeIn">Fx.Transitions.Quart.easeIn</option>
+			<option value="Fx.Transitions.Quart.easeOut">Fx.Transitions.Quart.easeOut</option>
+			<option value="Fx.Transitions.Quart.easeInOut">Fx.Transitions.Quart.easeInOut</option>
+			<option value="Fx.Transitions.Quint.easeIn">Fx.Transitions.Quint.easeIn</option>
+			<option value="Fx.Transitions.Quint.easeOut">Fx.Transitions.Quint.easeOut</option>
+			<option value="Fx.Transitions.Quint.easeInOut">Fx.Transitions.Quint.easeInOut</option>
+			<option value="Fx.Transitions.Pow.easeIn">Fx.Transitions.Pow.easeIn</option>
+			<option value="Fx.Transitions.Pow.easeOut">Fx.Transitions.Pow.easeOut</option>
+			<option value="Fx.Transitions.Pow.easeInOut">Fx.Transitions.Pow.easeInOut</option>
+			<option value="Fx.Transitions.Expo.easeIn">Fx.Transitions.Expo.easeIn</option>
+			<option value="Fx.Transitions.Expo.easeOut">Fx.Transitions.Expo.easeOut</option>
+			<option value="Fx.Transitions.Expo.easeInOut">Fx.Transitions.Expo.easeInOut</option>
+			<option value="Fx.Transitions.Circ.easeIn">Fx.Transitions.Circ.easeIn</option>
+			<option value="Fx.Transitions.Pow.easeInOut">Fx.Transitions.Pow.easeInOut</option>
+			<option value="Fx.Transitions.Expo.easeIn">Fx.Transitions.Expo.easeIn</option>
+			<option value="Fx.Transitions.Expo.easeOut">Fx.Transitions.Expo.easeOut</option>
+			<option value="Fx.Transitions.Expo.easeInOut">Fx.Transitions.Expo.easeInOut</option>
+			<option value="Fx.Transitions.Circ.easeIn">Fx.Transitions.Circ.easeIn</option>
+			<option value="Fx.Transitions.Circ.easeOut">Fx.Transitions.Circ.easeOut</option>
+			<option value="Fx.Transitions.Circ.easeInOut">Fx.Transitions.Circ.easeInOut</option>
+			<option value="Fx.Transitions.Sine.easeIn">Fx.Transitions.Sine.easeIn</option>
+			<option value="Fx.Transitions.Sine.easeOut">Fx.Transitions.Sine.easeOut</option>
+			<option value="Fx.Transitions.Sine.easeInOut">Fx.Transitions.Sine.easeInOut</option>
+			<option value="Fx.Transitions.Back.easeIn">Fx.Transitions.Back.easeIn</option>
+			<option value="Fx.Transitions.Back.easeOut">Fx.Transitions.Back.easeOut</option>
+			<option value="Fx.Transitions.Back.easeInOut">Fx.Transitions.Back.easeInOut</option>
+			<option value="Fx.Transitions.Bounce.easeIn">Fx.Transitions.Bounce.easeIn</option>
+			<option value="Fx.Transitions.Bounce.easeOut">Fx.Transitions.Bounce.easeOut</option>
+			<option value="Fx.Transitions.Bounce.easeInOut">Fx.Transitions.Bounce.easeInOut</option>
+			<option value="Fx.Transitions.Elastic.easeIn">Fx.Transitions.Elastic.easeIn</option>
+			<option value="Fx.Transitions.Elastic.easeOut">Fx.Transitions.Elastic.easeOut</option>
+			<option value="Fx.Transitions.Elastic.easeInOut">Fx.Transitions.Elastic.easeInOut</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="---------------------IMAGE MENU PROPERTIES---------------------" label="" description="Parameters for Drop Down and Drop Column Image Menu Properties." />
+		<param name="image_suffix_hover" type="text" default="" label="Image Suffix for Hover" description="A suffix to be applied to the image list" />
+
+		<param name="@spacer" type="spacer" default="---------------------DROPDOWN PROPERTIES--------------------" label="" description="Parameters for Drop Down Menu Properties." />
+	  <param name="end" type="list" default="11" label="Recursive Limit"  description="Show recursive child in moomenu and suckerfish (default 5)">
+			<option value="11">10 Childs</option>
+			<option value="10">9 Childs</option>
+			<option value="9">8 Childs</option>
+			<option value="8">7 Childs</option>
+			<option value="7">6 Childs</option>
+			<option value="6">5 Childs</option>
+			<option value="5">4 Childs</option>
+			<option value="4">3 Childs</option>
+			<option value="3">2 Childs</option>
+			<option value="2">1 Child</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="---------------------DROPDOWN PROPERTIES >> PARENT MENU " label="" description="Parameters for Drop Down Menu Properties." />
+		<param name="display_image_on_top_menu" type="radio" default="1" label="Show Image on your top menu (parent)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_top_menu" type="radio" default="1" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_top_menu" type="radio" default="right" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="---------------------DROPDOWN PROPERTIES >> CHILD MENU " label="" description="Parameters for Drop Down Menu Properties." />
+		<param name="display_image_on_sub_menu" type="radio" default="0" label="Show Image on Your Sub Menu (child)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_sub_menu" type="radio" default="1" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_sub_menu" type="radio" default="right" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+		<param name="display_image_option_on_sub_menu" type="radio" default="1" label="Display Image Option" description="Option for displaying image on your menu.">
+			<option value="0">Selected Level and Up</option>
+			<option value="1">selected Level Only</option>
+		</param>
+
+	  <param name="display_image_level" type="list" default="1" label="Start Display Image From"  description="Starting display image from selected menu">
+			<option value="2">1st Child (Level 2)</option>
+			<option value="3">2nd Child (Level 3)</option>
+			<option value="4">3rd Child (Level 4)</option>
+			<option value="5">4th Child (Level 5)</option>
+			<option value="6">5th Child (Level 6)</option>
+			<option value="7">6th Child (Level 7)</option>
+			<option value="8">7th Child (Level 8)</option>
+			<option value="9">8th Child (Level 9)</option>
+			<option value="10">9th Child (Level 10)</option>
+			<option value="11">10th Child (Level 11)</option>
+		</param>
+
+		<param name="level_configured_2" type="radio" default="0" label="Show Image at 1st Child (Level 2)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_3" type="radio" default="0" label="Show Image at 2nd Child (Level 3)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_4" type="radio" default="0" label="Show Image at 3rd Child (Level 4)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		
+		<param name="level_configured_5" type="radio" default="0" label="Show Image at 4th Child (Level 5)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_6" type="radio" default="0" label="Show Image at 5th Child (Level 6)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_7" type="radio" default="0" label="Show Image at 6th Child (Level 7)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_8" type="radio" default="0" label="Show Image at 7th Child (Level 8)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_9" type="radio" default="0" label="Show Image at 8th Child (Level 9)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_10" type="radio" default="0" label="Show Image at 9th Child (Level 10)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="level_configured_11" type="radio" default="0" label="Show Image at 10th Child (Level 11)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+<param name="@spacer" type="spacer" default="---------------------DROPCOLUMN PROPERTIES >> PARENT MENU " label="" description="Parameters for Drop Down Menu Properties." />
+		<param name="display_image_on_top_menu_dropcolumn" type="radio" default="1" label="Show Image on your top menu (parent)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_top_menu_dropcolumn" type="radio" default="1" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_top_menu_dropcolumn" type="radio" default="right" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+
+		<param name="display_image_on_sub_menu_dropcolumn" type="radio" default="1" label="Show Image on your sub menu (child)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_sub_menu_dropcolumn" type="radio" default="1" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_sub_menu_dropcolumn" type="radio" default="right" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+
+
+		<param name="@spacer" type="spacer" default="---------------------DROPCOLUMN PROPERTIES --------------------" label="" description="Parameters for Drop Down Column Properties." />
+	  <param name="columns" type="list" default="1" label="Dropcolumn Column Number"  description="Number of column for dropcolumn">
+			<option value="1">1 Column</option>
+			<option value="2">2 Columns</option>
+			<option value="3">3 Columns</option>
+			<option value="4">4 Columns</option>
+			<option value="5">5 Columns</option>
+			<option value="6">6 Columns</option>
+			<option value="7">7 Columns</option>
+			<option value="8">8 Columns</option>
+			<option value="9">9 Columns</option>
+			<option value="10">10 Columns</option>
+		</param>
+
+
+
+
+
+<param name="@spacer" type="spacer" default="---------------------DROPLINE PROPERTIES >> PARENT MENU " label="" description="Parameters for Drop Line Menu Properties." />
+		<param name="display_image_on_top_menu_dropline" type="radio" default="1" label="Show Image on your top menu (parent)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_top_menu_dropline" type="radio" default="1" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_top_menu_dropline" type="radio" default="right" label="Option Image and Text Display on Top Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+
+		<param name="display_image_on_sub_menu_dropline" type="radio" default="1" label="Show Image on your sub menu (child)" description="Option for displaying image on your menu.">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+
+		<param name="display_image_with_text_on_sub_menu_dropline" type="radio" default="1" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="1">Show Image With Text</option>
+			<option value="0">Show Image Only</option>
+		</param>
+
+		<param name="image_position_on_sub_menu_dropline" type="radio" default="right" label="Option Image and Text Display on Sub Menu" description="Option for displaying image on your menu.">
+			<option value="right">After Link (right)</option>
+			<option value="left">Before Link (left)</option>
+		</param>
+
+	</params>
+</install>  

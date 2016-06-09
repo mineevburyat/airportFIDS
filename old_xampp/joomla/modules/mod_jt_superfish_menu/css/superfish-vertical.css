@@ -1,0 +1,23 @@
+/*** adding jt-menu in addition to jt-menu creates a vertical menu ***/
+.jt-menu, .jt-menu li {
+	width:	10em;
+}
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */
+.jt-menu li:hover ul,
+.jt-menu li.sfHover ul {
+	left:	10em; /* match ul width */
+	top:	0;
+}
+
+/*** alter arrow directions ***/
+.jt-menu .sf-sub-indicator { background-position: -10px 0; } /* IE6 gets solid image only */
+.jt-menu a > .sf-sub-indicator { background-position: 0 0; } /* use translucent arrow for modern browsers*/
+
+/* hover arrow direction for modern browsers*/
+.jt-menu a:focus > .sf-sub-indicator,
+.jt-menu a:hover > .sf-sub-indicator,
+.jt-menu a:active > .sf-sub-indicator,
+.jt-menu li:hover > a > .sf-sub-indicator,
+.jt-menu li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}

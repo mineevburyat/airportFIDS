@@ -1,0 +1,98 @@
+/*
+# ------------------------------------------------------------------------
+# Templates for Joomla 1.6 / Joomla 1.7
+# ------------------------------------------------------------------------
+# Copyright (C) 2011 Jtemplate.ru. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2.
+# Author: JTemplate.ru
+# Websites:  http://www.jtemplate.ru 
+# ---------  http://code.google.com/p/jtemplate/   
+# ------------------------------------------------------------------------
+*/
+a:link {
+    color: #3B5998 !important;
+    text-decoration: none;
+}
+.pane-sliders .content {
+	border-radius: 3px 3px 3px 3px;
+    margin: 4px auto;
+    width: 99%;
+}
+.fltrt ul.adminformlist li {
+    border-bottom: 1px solid #EEEEEE;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 10px;
+}
+.panel fieldset.panelform > ul > li > label {
+    color: #444444;
+    font-size: 11px;
+    font-weight: bold;
+   /* height: 24px;*/
+    line-height: 24px;
+	width:300px !important;
+    max-width: 50% !important;
+    min-width: 30% !important;
+    padding: 0 20px 0 10px;
+    text-align: left;
+}
+fieldset.panelform input {
+    border-radius: 2px 2px 2px 2px;
+    color: #555555;
+    height: 16px;
+    line-height: 16px;
+    padding: 4px;
+}
+#jform_params___field1-lbl {
+    display: none;
+}
+div.panel h3 {
+    border-bottom: 4px solid #3B5998 !important;
+}
+
+div.panel > h3 {
+    border: 1px solid #D8D8D8;
+    border-radius: 3px 3px 3px 3px;
+    font: bold 12px/43px Arial,Helvetica,sans-serif;
+    height: 43px;
+
+}
+
+.pane-sliders .panel h3 {
+    background: none repeat scroll 0 0 #FAFAFA;
+	}
+.pane-sliders .panel {
+	border: none !important;
+    margin-bottom: 3px;
+	}
+
+.pane-sliders .panel h3  {
+	background-image: -moz-linear-gradient(top, #FFF, #F6F6F6) !important; /* FF3.6 */
+	background-image: -webkit-linear-gradient(top, #FFF, #F6F6F6) !important; /* Safari 5.1+, Chrome 10+ */
+	background-image: -o-linear-gradient(top, #FFF, #F6F6F6) !important; /* Opera 11.1+ */
+	background-image: -ms-linear-gradient(top, #FFF, #F6F6F6) !important; /* IE10+ */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#F6F6F6') !important;/* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#F6F6F6')" !important; /* IE8+ */
+	background-image: linear-gradient(top, #FFF, #F6F6F6) !important;
+}
+
+.pane-toggler-down span {
+    background: url("j_arrow_down.png") no-repeat scroll 5px 50% transparent !important;
+    padding-left: 20px;
+}
+.pane-toggler span {
+    background: url("j_arrow.png") no-repeat scroll 5px 50% transparent !important;
+    padding-left: 20px;
+}
+#jformparamscatids { min-height:150px;}
+.switcher-on,
+
+ .switcher-off { width:94px; height:27px; background:transparent url('switcher.png') no-repeat 0 0; cursor:pointer; float: left; margin-top: 3px; }
+
+.switcher-off { background-position:-94px 0; }
+
+.eco_switcher-on,
+
+.eco_switcher-off { width:94px; height:27px; background:transparent url('switcher.png') no-repeat 0 0; cursor:pointer; float: left; margin-top: 3px; }
+
+.eco_switcher-off { background-position:-94px 0; }
