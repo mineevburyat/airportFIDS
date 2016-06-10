@@ -1,7 +1,7 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=cp1251">
-  <title>Табло ИСГ</title>
+  <title>РўР°Р±Р»Рѕ РРЎР“</title>
   
  </head>
 
